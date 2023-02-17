@@ -1,0 +1,63 @@
+.root {
+    margin: 64px auto;
+}
+
+.button {
+    margin: 16px auto;
+}
+
+.wrapper {
+    flex-grow: 1;
+    position: relative;
+    background-color: #F2F3F7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.controls {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    right: 4px;
+    bottom: 4px;
+    z-index: 999999999999999999999999999;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 8px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.08), 0 4px 16px rgba(0, 0, 0, 0.08);
+    background-color: white;
+
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.initial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 200px;
+}
+
+.buttonControls {
+    appearance: none;
+    line-height: 16px;
+    font-size: 10px;
+    color: #9198A0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.zoomControls {
+    font-size: 14px;
+    line-height: 20px;
+    color: #9198A0;
+}
